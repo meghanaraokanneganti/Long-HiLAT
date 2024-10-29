@@ -1,6 +1,4 @@
-# Hierarchical Label-wise Attention Transformer Model for Explainable ICD Coding
-
-The source code is for the published research: [Hierarchical Label-wise Attention Transformer Model for Explainable ICD Coding](https://doi.org/10.1016/j.jbi.2022.104161)
+# Longformer-based hierarchical Labelwise attention Transformer
 
 ## Prerequisites
 Restore [MIMIC-III v1.4 data](https://physionet.org/content/mimiciii/1.4/) into a Postgres database. 
@@ -20,5 +18,3 @@ python3 hilat/data/mimic3_data_preparer.py \
 
 python3 hilat/run_coding.py config.json
 
-## Support
-For more information, please contact leibo.liu@unsw.edu.au.
